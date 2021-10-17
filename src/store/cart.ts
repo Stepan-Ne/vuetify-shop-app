@@ -1,15 +1,15 @@
-interface ProdI {
+export interface ProdI {
   image: string
   name: string
   price: number
 }
-interface snackI {
+export interface snackI {
   show: boolean
   variant: string
   message: string
   quantity: number
 }
-interface paylo {
+export interface paylo {
   itemId: number
    quantity: number
 }
@@ -19,13 +19,13 @@ import { VuexModule, Module, Mutation, Action } from 'vuex-module-decorators'
 @Module({ namespaced: true, name: 'product' })
 class Cart extends VuexModule {
   public products: ProdI[] = products1
-  snackbar: snackI =  {
+  public snackbar: snackI =  {
       show: false, 
       variant: 'success', 
       message: 'Succwss! Item added to the cart', 
       quantity: 0
     }
-    cart: any =  []
+  public cart: any =  []
 
   @Mutation
   public addItemToCart (payload: paylo) {
