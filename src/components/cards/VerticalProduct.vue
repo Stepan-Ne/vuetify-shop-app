@@ -20,7 +20,7 @@ const cart = namespace("Cart");
 @Component({})
 export default class VerticalProduct extends Vue {
 @Prop(Object) readonly prod!: ProdI
-@Prop(Number) readonly index!: number
+// @Prop(Number) readonly index!: number
 
   @cart.Mutation
   public addItemToCart!: ({itemId: 1, quantity: 1})
