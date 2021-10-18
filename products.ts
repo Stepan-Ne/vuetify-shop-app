@@ -1,16 +1,16 @@
 export default [
     {
-        image: 'https://www.google.com/aclk?sa=l&ai=DChcSEwiMq-mjx9HzAhULBaIDHauNAxEYABAFGgJsZQ&sig=AOD64_0kftExb6ap58jYmNsAXX4znaYZYg&adurl&ctype=5&ved=2ahUKEwi-mtujx9HzAhWGvyoKHVAUBEcQvhd6BAgBEFo', 
+        image: 'https://store77.net/upload/iblock/693/693478e77a2f049f10e89ca8f816d961.jpeg', 
         name: 'iPhone 13', 
         price: 998
     },
     {
-        image: 'https://www.google.com/aclk?sa=l&ai=DChcSEwiMq-mjx9HzAhULBaIDHauNAxEYABAFGgJsZQ&sig=AOD64_0kftExb6ap58jYmNsAXX4znaYZYg&adurl&ctype=5&ved=2ahUKEwi-mtujx9HzAhWGvyoKHVAUBEcQvhd6BAgBEFo',
+        image: 'https://store77.net/upload/iblock/693/693478e77a2f049f10e89ca8f816d961.jpeg',
         name: 'iPhone 12',
         price: 898
     },
     {
-        image: 'https://www.google.com/aclk?sa=l&ai=DChcSEwiMq-mjx9HzAhULBaIDHauNAxEYABAFGgJsZQ&sig=AOD64_0kftExb6ap58jYmNsAXX4znaYZYg&adurl&ctype=5&ved=2ahUKEwi-mtujx9HzAhWGvyoKHVAUBEcQvhd6BAgBEFo',
+        image: 'https://store77.net/upload/iblock/693/693478e77a2f049f10e89ca8f816d961.jpeg',
         name: 'iPhone 11',
         price: 798
     },

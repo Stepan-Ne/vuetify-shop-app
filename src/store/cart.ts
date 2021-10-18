@@ -22,13 +22,14 @@ class Cart extends VuexModule {
   public snackbar: snackI =  {
       show: false, 
       variant: 'success', 
-      message: 'Succwss! Item added to the cart', 
+      message: 'Success! Item added to the cart', 
       quantity: 0
     }
   public cart: any =  []
 
   @Mutation
   public addItemToCart (payload: paylo) {
+   
       const {itemId, quantity} = payload;
       const idx = this.cart.findIndex((product: any) => {
         return product.itemId === itemId
@@ -38,6 +39,10 @@ class Cart extends VuexModule {
       } else {
         this.cart[idx].quantity += 1;
       }
+    }
+    @Mutation
+    public updateSnackbar(payload: any) {
+        this.snackbar.show = payload.show;
     }
   // @Action
   // public updateName (newName: string): void {
